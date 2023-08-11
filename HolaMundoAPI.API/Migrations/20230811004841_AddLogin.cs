@@ -5,7 +5,7 @@
 namespace HolaMundoAPI.API.Migrations
 {
     /// <inheritdoc />
-    public partial class AddUserRole : Migration
+    public partial class AddLogin : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HolaMundoAPI.API.Migrations
 {
     [DbContext(typeof(HolaMundoDbContext))]
-    [Migration("20230805153445_AddUserRole")]
-    partial class AddUserRole
+    [Migration("20230811004841_AddLogin")]
+    partial class AddLogin
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
