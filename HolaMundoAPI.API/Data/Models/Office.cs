@@ -26,6 +26,8 @@ namespace HolaMundoAPI.API.Data.Models
 
         [Required]
         public string City { get; set; }
+        public string OfficeType{ get; set; }
+        public string UrlImage { get; set; }
         public double Latitude { get; set; }
         public double Longitude { get; set; }
     }

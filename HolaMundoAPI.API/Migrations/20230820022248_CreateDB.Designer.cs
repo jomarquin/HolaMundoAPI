@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HolaMundoAPI.API.Migrations
 {
     [DbContext(typeof(HolaMundoDbContext))]
-    [Migration("20230818022856_CreateDB")]
+    [Migration("20230820022248_CreateDB")]
     partial class CreateDB
     {
         /// <inheritdoc />
@@ -85,7 +85,15 @@ namespace HolaMundoAPI.API.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("OfficeType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Telephone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UrlImage")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
